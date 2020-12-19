@@ -1,0 +1,277 @@
+@font-face{
+    src: url(stvari/fontovi/Matroska-Wg3v.ttf);
+font-family: Matroska;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 1260px;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+z-index: 20;
+opacity: 90%;
+}
+.navbar div{
+    
+    float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 64px 42px;
+  
+  height: 40px;
+  opacity: 100% !important;
+}
+
+h1{
+    font-family: Matroska;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 183%;
+    
+}
+.motor{
+    z-index: 10;
+    position: absolute;
+width: 1301px;
+height: 813px;
+left: -10px;
+top: 164px;
+}
+.logo{
+    padding:55px 64px !important;
+   
+}
+.slikadesno{
+    z-index: 10;
+    position: absolute;
+    height: 700px;
+    width: auto;
+    
+    left: 1135px;
+    top: 164px;  
+}
+.slikadoledesno{
+    z-index: 10;
+    position: absolute;
+width: 316px;
+height: 256px;
+left: 1100px;
+top: 900px;
+}
+.pozadina{
+    z-index: 1;
+    position: absolute;
+    
+height: 375px;
+    top: 0px;
+    left: 1253px;
+    float: right;
+    
+    
+}
+.okruglaslikaslova{
+    z-index: 15;
+left: 890px;
+top: 214px;
+position: absolute;
+width: 183.28px;
+height: 177.41px;
+}
+.slova{
+    position: absolute;
+width: 822px;
+height: 150px;
+left: -12px;
+top: 760px;
+z-index: 15;
+}
+.slova2{
+    position: absolute;
+width: 822px;
+height: 150px;
+left: 952px;
+top: 760px;
+z-index: 15;
+}
+
+.tekst{
+    display:flex;
+    position: absolute;
+width: 406px;
+height: 92px;
+left: 591px;
+top: 1038px;
+align-items: center;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 200%;
+color: #FFFFFF;
+}
+
+.bar1{
+    display: flex;
+align-items: center;
+    position: absolute;
+    z-index: 8;
+width: 226px;
+height: 2px;
+left: 176px;
+top: 1083px;
+
+background: #FFFFFF;
+}
+.bar2{
+display: flex;
+align-items: center;
+    z-index: 13;
+    position: absolute;
+width: 140px;
+height: 2px;
+left: 176px;
+top: 1083px;
+
+background: #A75B12;
+
+}
+.dva{
+    display: flex;
+align-items: center;
+    z-index: 8;
+    position: absolute;
+width: 72px;
+height: 40px;
+left: 95px;
+top: 1064px;
+text-align: center;
+}
+h2{
+ 
+    font-family: Matroska;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 183%;
+color: white;
+}
+.deset{
+    display: flex;
+    align-items: center;
+        z-index: 5;
+        position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 442px;
+    top: 1064px;
+    text-align: center;
+}
+.sidebar{
+    background-color: white;
+    position: absolute;
+width: 27%;
+height: 749px;
+right:0;
+top: 375px;
+z-index: 20;
+
+    
+}
+.kocke{
+    display:block;
+    
+    color:aliceblue;
+    padding-left: 95px;
+    padding-bottom: 190px;
+}
+.top{
+    padding-top: 75px;
+}
+.sidebar2{
+    background-color:black;
+    position: absolute;
+width: 419px;
+height: 749px;
+left:1484px;
+top: 375px;
+z-index: 21;
+}
+h4{
+    position: absolute;
+width: 184px;
+height: 12px;
+    font-family:'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-top: 10px;
+color: #FFFFFF;
+
+}
+h3{
+    position: absolute;
+width: 300px;
+height: 37px;
+    font-family: Matroska;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+h5{
+    position: absolute;
+    width: 184px;
+    height: 12px;
+        font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+h6{
+    
+    color: #3F3E44;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    
+    text-align: center;
+
+}
+.okomito{
+    position: absolute;
+    width: 200px;
+    left: 1510px;
+    top:420px;
+    z-index:30;
+    
+}
+.okomito123{
+    transform: rotate(-90deg);
+    padding: 20px;
+    display: flex;
+    width: 30px;
+    height: 155px;
+    
+}
