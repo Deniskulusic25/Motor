@@ -344,6 +344,7 @@ body{
     display:flex;
     flex-direction: column;
     background-color: black;
+    overflow-x: hidden;
 }
 h5{
     font-family: 'Montserrat', sans-serif;
